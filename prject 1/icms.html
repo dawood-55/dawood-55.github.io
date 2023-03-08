@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<title>ICMS Education System |Education with social Resposiblity</title>
+</head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  
+  
+
+  
+  padding: 0px 0;
+  
+}
+nav .menu{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20 40px;
+  background-color: darkblue;
+  width: 100%;
+  padding: 0px 0;
+  height: 35px;
+
+
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: ;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 30;
+  padding: 10px 15px;
+  
+  transition: all 0.3s ease;
+  background-color: orange;
+}
+.menu ul li a:hover{
+  background: orangered;
+  color: black;
+}
+.logo2{
+  padding-top: 30px;
+  padding-left: 180px;
+
+}
+  .homebtn{
+    
+       background-color: darkblue;
+     padding: 5px 10px;
+     width: 1200px;
+      display: flex;
+     margin-left: 180px;
+     position: absolute;
+     
+     align-items: center;
+     height: 50px;
+     
+     
+
+     
+      
+  }
+  .homebtn ul{
+    display: inline-flex;
+
+
+  }
+
+  .homebtn ul li{
+    list-style: none;
+
+
+  }
+  .homebtn ul li a{
+    padding: 15px 20px;
+    
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 50;
+
+    
+  }
+
+.homebtn ul li:first-child{
+  margin-left: 0px;
+  
+}
+.marq{
+  
+ font-size: 20px;
+ margin-right: 200px;
+ margin-left: 600px;
+ color: red;
+ height: 50px;
+ font-size: bold;
+
+
+}
+.slide{
+   
+  margin-top: 25px;
+  display: 
+
+}
+.slide img{
+  height: 550px;
+  width: 1550px;
+}
+
+
+.quotecont{
+
+margin-left: 100px;
+margin-top: -35px;
+
+
+
+
+}
+.quote{
+background-color: darkblue ;
+height: 180px;
+width:300px ;
+color: white;
+padding: 30px;
+
+display: inline-flex;
+
+border-top-right-radius: 3em;
+    border-top-left-radius: 3em;
+
+
+
+}
+hr{
+  width: 20%;
+
+  text-align: center;
+  margin-left: 600px;
+  color: black;
+  height: 10px;
+
+}
+
+#content {
+
+margin-top: 50px;
+  padding: 0.5rem;
+  display: inline-flex;
+  margin-left: 180px;
+}
+
+#left,
+#right {
+
+  
+  padding: 0.5rem;
+  flex-grow: 1;
+  color: black;
+}
+#right h2{
+
+  background-color: whitesmoke;
+  block-size: 40px;
+  display: block;
+  font-size: 25px;
+  
+}
+.star{
+
+  background-color: ;
+  height: 600px;
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.stud{
+  background-color: ;
+  height: 600px;
+  width: 80%;
+  
+  margin-top: px;
+}
+.stud img{
+  
+  position:absolute;
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  background: darkblue;
+  height: 400px;
+
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 25%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  ghostwhite;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+
+
+
+
+</style>
+<body>
+  <div>
+ <nav>
+    <div class="menu">
+      <div class="logo">
+
+        <a href="#" style="margin-left: 180px;">Icms education system</a>
+      </div>
+      <ul style="margin-right: 180px;">
+        <li><a href="#">RESULTS</a></li>
+        <li><a href="#">APPLY ONLINE</a></li>
+        <li><a href="#">GET FRANCHISE</a></li>
+       
+      </ul>
+    </div>
+  </nav>
+  <div class="logo2">
+    <img src="logo.png">
+  </div>
+
+  <div class="marq">
+
+    <marquee> Dear parents and students, the admission is open in ICMS school and college system for session 2022-2023</marquee>
+
+  </div>
+</div>
+
+   <nav>
+    <div class="homebtn">
+      <ul>
+
+      
+        
+<li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Faculty</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Campuses</a></li>
+         <li><a href="#">News</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Download</a></li>
+         <li><a href="#">Alumni</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">Franchise</a></li>
+         <li><a href="#">blog</a></li>
+         
+
+         
+
+
+
+      </ul>
+    </div>
+    
+</div>
+</div>
+</nav>
+<div class="slide">
+  <h1 class="slider-title" data-animation-in="fadeInLeft" data-animation-out="animate-out"></h1>
+     <img src="88.jpg ">
+
+
+
+  </div>
+
+
+<div class="quotecont">
+<div class="quote">
+  <blockquote>
+
+            <h4 style="text-align:center;">
+              <br>
+              <br>
+              <br>
+              <br>
+              ICMS COLLEGE SYSTEM
+            </h4>
+
+
+
+            <p style="text-align:center;">The Largeset Educational Network in Pakistan</p>
+
+
+  </blockquote>
+
+
+
+
+</div>
+<div class="quote">
+  <blockquote>
+            <h3 style="text-align: center;">
+              <br>
+              <br>
+              <br>
+              Books & Library
+            </h3>
+
+             <i class="fas fa-cloud" style="font-size:60px;color:white;"></i>
+
+            <p style="text-align:center;">State of the Art Library and eBooks Collections</p>
+
+
+
+  </blockquote>
+
+
+
+
+</div>
+<div class="quote">
+  <blockquote>
+ <h3 style="text-align: center;">
+              <br>
+              <br>
+              <br>
+              Certified Teachers 
+            </h3>
+
+
+
+            <p style="text-align:center;">Best faculty with high morality norms </p>
+
+
+  </blockquote>
+
+
+
+
+</div>
+<div class="quote">
+  <blockquote>
+  
+ <h3 style="text-align: center;">
+              <br>
+              <br>
+              <br>
+              Sports Events
+            </h3>
+
+
+
+            <p style="text-align:center;">Extract curricular activities and sports compitions</p>
+
+  </blockquote>
+
+
+
+</div>
+
+</div>  
+
+
+       <div style="text-align: center; margin-top: 40px; font-size: ;">
+        <h1>About us </h1>
+        <p style="font-size: 15px; text-align: center;">
+
+          
+          ICMS Education has grown and evolved for 20-plus years, passing many milestones and forging traditions along the way. The salient features of ICMS are religious virtues <br> and mutual trust…
+                
+        </p>
+                                    <hr style="background-color: darkblue;">
+
+
+
+        </div>
+
+
+    <div id="content">
+  <div id="left">
+     <div id="object1"><a href="https://www.youtube.com/watch?v=ffSy01yjKSI"><img src="YO.png" width="560" height="315"></img></a></div>
+     <div id="object2"></div>
+  </div>
+
+  <div id="right">
+     <div id="object3">
+       <h1>WELCOME TO ICMS </h1>
+
+
+     </div>
+     <div id="object4">At ICMS, the entire community of students, teachers and their families, staff, and servants<br> share their problems, joys, and sorrows. This develops an ethos where the school becomes <br>a living and pulsating extended family.
+      <br>
+      <br>
+      <br>
+
+
+
+    <h2>Our History</h2>  
+    <h2>Our Mission</h2>
+    <h2>Our Vision</h2>
+ </div>
+</div>
+  </div>
+</div>
+<div class="star">
+  <div align="center">
+    <h1><b>ICMS SHINNING STARS</b></h1><br>
+    Leadership, Punctuality, Hardworking, are core values of our students <br><br><br>
+     <hr style="background-color: darkblue; margin-left: 1px;">
+     <br>
+     <br>
+     <br>
+
+    <img src="sliding.png" height="400px">
+  </div>
+</div>
+
+  <div class="stud">
+    <img src="stud.png">
+  </div>
+  
+  
+</div>
+<footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">
+           <img src="logo-footer.png">
+         </div>
+         <p>Education with social responsibility.<br><br>
+
+The largest educational network in Pakistan.
+         </p>
+       </div>
+       <div class="lower">
+         <div class="topic"></div>
+         <div class="phone">
+           <a href="#"></a>
+         </div>
+         <div class="email">
+           <a href="#"></a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">Important Links</div>
+       <div><a href="https://icms.edu.pk/apply">> ONLINE ADMISSION</a></div>
+       <div><a href="https://icms.edu.pk/blog">> Blog</a></div>
+       <div><a href="https://icms.edu.pk/contact">> Contact Us</a></div>
+       <div><a href="https://icms.edu.pk/sitemap/xml">> Sitemap </a></div>
+       
+     </div>
+     <div class="center of middle-right box">
+       <div class="topic"></div>
+       <div><a href="https://icms.edu.pk/join">> Get Franchise</a></div>
+       <div><a href="https://icms.edu.pk/downloads">> Downloads</a></div>
+       <div><a href="https://icms.edu.pk/auth/login">> Admiin Login</a></div>
+       
+     </div>
+     <div class="right box">
+       <div class="topic">NEWSLETTERS</div>
+       <div style="color: white;">Sign Up to Our NewsLetter to Get latest<br>
+        Updates & Services.
+
+      </div>
+      <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+       
+       
+     </div>
+   </div>
+   <div class="bottom">
+     <p>© 2021 <a href="#">ICMS Education System.</a> All rights reserved</p>
+   </div>
+ </footer>
+
+    
+</body>
+</html>
